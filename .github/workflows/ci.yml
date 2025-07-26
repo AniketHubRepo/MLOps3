@@ -30,7 +30,7 @@ jobs:
       - name: Run container and verify
         run: docker run mlops3 python src/predict.py
 
-      - name: Login to DockerHub now
+      - name: Login to DockerHub
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKER_USERNAME }}

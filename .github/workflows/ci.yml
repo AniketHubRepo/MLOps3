@@ -38,5 +38,5 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker tag mlops-pipeline ${{ secrets.DOCKER_USERNAME }}/mlops-pipeline:latest
-          docker push ${{ secrets.DOCKER_USERNAME }}/mlops-pipeline:latest
+          docker tag mlops3 ${{ secrets.DOCKER_USERNAME }}/mlops3:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/mlops3:latest
